@@ -1,0 +1,9 @@
+maquette_homepage:
+    path:     /
+    defaults: { _controller: MaquetteBundle:Default:index }
+maquette_about:
+    path:     /About
+    defaults: { _controller: MaquetteBundle:Default:About }
+maquette_pricing:
+    path:     /Pricing
+    defaults: { _controller: MaquetteBundle:Default:Pricing }

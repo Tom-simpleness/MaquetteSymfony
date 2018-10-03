@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                One of three columns
+            </div>
+            <div class="col-sm">
+                <img class="img1" src="../Images/thumbnail-4.jpg" alt="">
+            </div>
+            <div class="col-sm">
+                One of three columns
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col8-sm">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="img1" src="../Images/thumbnail-5.jpg" alt="">
+                        </div>
+                        <div class="col-sm">
+                            One of three columns
+                        </div>
+                    </div>
+                    <div class="row"></div>
+            <div class="col4-sm">
+                One of three columns
+            </div>
+                </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
+{% block stylesheets %}
+    <style>
+.img1 {
+    width: 350px;
+}
+    </style>
+{% endblock %}
